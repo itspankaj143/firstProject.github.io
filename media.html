@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #video {
+        height: 300px;
+        width: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Media audio play -->
+
+    <audio controls id="audio">
+      <source
+        src="./audio-video/128-Aadat - Shahid Mallya 128 Kbps.mp3"
+        type="audio/mp3"
+      />
+    </audio>
+    <br />
+    <hr />
+
+    <!-- Media Video Play -->
+    <video controls id="video" poster="./audio-video/IMG_20180909_164026.jpg">
+      <source
+        src="./audio-video/O Bedardeya - Tu Jhoothi Main Makkaar_HD_720p-(Hd9video).mp4"
+        type="video/mp4"
+      />
+    </video>
+    <br />
+    <hr />
+
+    <!-- lottie-Animation -->
+
+    <lottie-player
+      src="https://assets5.lottiefiles.com/datafiles/ogIQ10UnwnKiBZS/data.json"
+      background="transparent"
+      speed="1"
+      style="width: 300px; height: 300px"
+      loop
+      autoplay
+    ></lottie-player>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  </body>
+</html>

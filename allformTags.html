@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      form {
+        background-color: gray;
+        color: black;
+        font-size: large;
+        font-weight: bold;
+        font-style: oblique;
+      }
+      input {
+        background-color: lightgrey;
+      }
+    </style>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Your Personal Information...</legend>
+      <form action="">
+        <label for="fName">First Name-:</label>
+        <input
+          type="text"
+          name=""
+          id="fName"
+          placeholder="Enter Your fName..."
+          required
+        />
+
+        <label for="lName">Last Name-:</label>
+        <input type="text" name="" id="lName" placeholder="lName..." required />
+        <br />
+        <br />
+
+        <label for="email">E-mail-:</label>
+        <input type="email" name="" id="email" />
+
+        <label for="pass">Password-:</label>
+        <input type="password" name="" id="pass" />
+        <br /><br />
+
+        <label for="phone">Phone Number-:</label>
+        <select>
+          <option value="">+91</option>
+          <option value="">+966</option>
+          <option value="">+11</option>
+          <option value="">+2432</option>
+        </select>
+        <input type="tel" name="" id="phone" maxlength="10" />
+
+        <label for="course">Course-:</label>
+        <select name="" id="">
+          <option value="">Full-Stack-Developer</option>
+          <option value="">Frontend-Developer</option>
+          <option value="">Backend-Developer</option>
+          <option value="">C,CPP</option>
+          <option value="">Python</option>
+          <option value="">JavaScript</option>
+          <option value="">MERN</option>
+          <option value="">MEAN</option>
+        </select>
+        <br /><br />
+
+        <label for="gender">Gender-: </label>
+        <input type="radio" name="gender" id="gender" />Male
+        <input type="radio" name="gender" id="gender" />Female
+        <input type="radio" name="gender" id="gender" />Other <br /><br />
+
+        <label for="hobbies"> Hobbies-:</label>
+        <input type="checkbox" name="" id="hobbies" value="Playing" /> Playing
+        <input type="checkbox" name="" id="hobbies" value="Dancing" /> Dancing
+        <input type="checkbox" name="" id="hobbies" value="Cooking" /> Cooking
+        <input type="checkbox" name="" id="hobbies" value="Reading" /> Reading
+        <input type="checkbox" name="" id="hobbies" value="Drawing" /> Drawing
+        <br /><br />
+
+        <label for="life">About Your Life-:</label><br />
+        <textarea name="" id="" cols="30" rows="10">Your past....</textarea>
+        <br /><br />
+
+        <label for="browser">Browser-:</label>
+        <input list="browser" />
+        <datalist id="browser">
+          <option value="Opera"></option>
+          <option value="Crome"></option>
+          <option value="FireFox"></option>
+          <option value="Edge"></option>
+          <option value="Safari"></option>
+        </datalist>
+
+        <label for="color">Color-:</label>
+        <input type="color" name="" id="" />
+        <br />
+        <br />
+        <label for="file">File-:</label>
+        <input type="file" name="" id="" multiple />
+
+        <label for="date">DOB-:</label>
+        <input type="datetime-local" name="" id="" />
+        <br /><br />
+        <label for="range">Range:-</label>
+        <input type="range" name="" id="" />
+        <br /><br />
+
+        <input type="submit" name="" id="" value="Submit" />
+        <input type="reset" name="" id="" value="Reset" />
+      </form>
+    </fieldset>
+  </body>
+</html>
